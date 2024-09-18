@@ -1,0 +1,28 @@
+# .gitignore
+
+# Node.js
+client/node_modules/*
+server/node_modules/*
+*/.next
+npm-debug.log
+yarn-error.log
+
+# Next.js
+.next/
+out/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# NestJS
+dist/
+.env
+
+# Logs
+logs/
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
